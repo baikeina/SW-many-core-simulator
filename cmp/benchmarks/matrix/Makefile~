@@ -1,0 +1,14 @@
+OBJS = helloworld.o  func.o
+CC = alpha-unknown-linux-gnu-gcc 
+
+BFS: $(OBJS)
+	$(CC)  -O3 -g3 -w -static $(OBJS) -o helloworld -lm
+
+func.o: func.s
+	$(CC) -O3 -g3 -w -static  -c func.s
+helloworld.o: helloworld.c 
+	$(CC) -O3 -g3 -w -static  -c helloworld.c
+
+clean:
+	rm -f *.o helloworld
+

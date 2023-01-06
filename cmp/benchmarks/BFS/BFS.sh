@@ -1,0 +1,1 @@
+/home/w/ljr/ALPHA_CMP/cmp_sim_beta/sim-outorder -redir:sim /home/w/ljr/ALPHA_CMP/program/BFS/result/BFS.txt    -redir:dump /home/w/ljr/ALPHA_CMP/program/BFS/result/BFS.out  -config /home/w/zl/ALPHA_CMP/CMP_SIM_standard/run/config_mesh_ooo  -max:barrier 0 -max:inst 10000000 /home/w/ljr/ALPHA_CMP/program/BFS/BFS.BNC

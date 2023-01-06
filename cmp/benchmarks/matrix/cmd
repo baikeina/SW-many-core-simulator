@@ -1,0 +1,11 @@
+
+file /home/xiaozhenli/cmp/cmp_org_huq_all_trace/sim-outorder
+set args -redir:sim ./sim/sim.log \
+    -redir:dump ./sim/dump \
+    -flow_trace ./flow_trace \
+    -cpu:trace ./cpu_trace \
+    -L2:trace ./l2_trace \
+    -router_trace ./router_trace \
+    -config ../../config_mesh_ooo_xy_org \
+    -max:barrier 0 -max:inst 1000000 /home/xiaozhenli/cmp/benchmarks/matrix/matrix.BNC
+

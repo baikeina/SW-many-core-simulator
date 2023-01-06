@@ -1,0 +1,2 @@
+file /home/w/CMP_WTF/ALPHA_CMP/CMP_SIM_standard/sim-outorder 
+set args -redir:sim /home/w/CMP_WTF/ALPHA_CMP/program/BFS/result/BFS.txt    -redir:dump /home/w/CMP_WTF/ALPHA_CMP/program/BFS/result/BFS.out  -config /home/w/zl/ALPHA_CMP/CMP_SIM_standard/run/config_mesh_ooo  -max:barrier 0 -max:inst 10000000 /home/w/CMP_WTF/ALPHA_CMP/program/BFS/BFS.BNC
